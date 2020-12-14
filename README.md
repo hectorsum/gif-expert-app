@@ -1,6 +1,8 @@
 # Gif-Expert-App
 Project based on fetching data from Giphy API through an input field.
 
+## Preview
+![preview](./src/assets/images/capture.JPG)
 
 ### Give it a try!
 **<https://hectorsum.github.io/gif-expert-app/>**
