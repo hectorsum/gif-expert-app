@@ -1,0 +1,12 @@
+@import '../Variables.scss';
+input{
+  font-size: 1.2rem;
+  padding: 10px;
+  color:grey;
+  border-radius: 5px;
+  outline: none;
+  min-width: $min-width-elements;
+  margin: 20px 0px;
+  width: 100%;
+  box-sizing: border-box;
+}

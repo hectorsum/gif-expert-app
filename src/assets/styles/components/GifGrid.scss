@@ -1,0 +1,17 @@
+@import '../Variables.scss';
+.card-grid-title{
+  font-size: 32px;
+  text-align: center;
+  margin: 10px 0px;
+  text-transform: capitalize;
+  color: #282d2e;
+  font-weight: bold;
+}
+.card-grid{
+  border: 2px dashed #4D5242;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px;
+  min-width: $min-width-elements;
+}

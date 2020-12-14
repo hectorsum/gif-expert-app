@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AddCategory } from './AddCategory';
 import { GifGrid } from './GifGrid';
+import "../assets/styles/components/GifExpertApp.scss";
 
 const GifExpertApp = props => {
   //const categories = ['One Punch','Samurai X','Dragon Ball'];
@@ -12,7 +13,7 @@ const GifExpertApp = props => {
   // }
   return (
     <>
-      <h2>GifExpertApp</h2>
+      <h2 className="main-title">gif-expert-app</h2>
       <AddCategory setCategories={ setCategories }/>
       <hr/>
       <ol>

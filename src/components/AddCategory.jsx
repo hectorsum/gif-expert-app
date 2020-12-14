@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
+import '../assets/styles/components/AddCategory.scss';
 
 export const AddCategory = ({ setCategories }) => {
   //* El estado tiene que inicializarse con algun valor y no debe estar vacio para evitar el undefined y el cambio de estado al enviar valores del input
@@ -20,7 +21,7 @@ export const AddCategory = ({ setCategories }) => {
     <> 
       <form onSubmit={handleSubmit}>
         <input type="text" 
-                placeholder="Insert Category" 
+                placeholder="Type anything you want!" 
                 value={inputValue} 
                 onChange={handleInputChange}/>
       </form>

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/styles/components/GifGridItem.scss';
 
 export const GifGridItem = ( {id,title,url} ) => {
   console.log({id,title,url});
