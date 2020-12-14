@@ -1,5 +1,5 @@
 # Gif-Expert-App
-Project based on fetching data from Giphy API through an input field.
+Project based on fetching data using Giphy API through an input field.
 
 ## Preview
 ![preview](./src/assets/images/capture.JPG)
